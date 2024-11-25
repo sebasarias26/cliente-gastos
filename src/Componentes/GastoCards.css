@@ -1,0 +1,29 @@
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(77, 77, 77);
+    width: 20em;
+    margin: 2em;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-container {
+    display: flex;
+    overflow: hidden;
+  }
+  .imageAdding {
+    border-radius: 100%;
+    background-color: rgb(215, 255, 242);
+  }  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  } 
+  

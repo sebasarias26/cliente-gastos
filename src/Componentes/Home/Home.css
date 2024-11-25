@@ -1,0 +1,6 @@
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 10em;
+    width: 60em;
+  }

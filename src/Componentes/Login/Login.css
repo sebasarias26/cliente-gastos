@@ -1,0 +1,24 @@
+.login-container {
+    display: flex;
+    background-color: white;
+    margin: 5em;
+    overflow: hidden;
+    height: 45em;
+}
+
+.left-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.backgroundSingIn {
+    width: 100vh;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    background-color: #B1DCD5;
+    justify-content: center;
+}

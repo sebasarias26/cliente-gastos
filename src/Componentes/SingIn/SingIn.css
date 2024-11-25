@@ -1,0 +1,29 @@
+:root {
+    --mi-color: #fee7c5;
+  }
+
+.tittle {
+    color: var(--mi-color);
+    font-size: 5.5em;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+input {
+    padding: 1em;
+    border-radius: 10px;
+    background-color: var(--mi-color);
+    border: none;
+}
+
+button {
+    padding: 1em;
+    width: 13em;
+    border-radius: 100px;
+    border: none;
+    background-color: #FEC63D;
+}

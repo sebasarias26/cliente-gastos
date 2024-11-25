@@ -1,0 +1,40 @@
+.register-container {
+    display: flex;
+    background-color: white;
+    margin: 5em;
+    overflow: hidden;
+    height: 45em;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    background-color: #B1DCD5;
+    justify-content: center;
+    width: 100vh;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.form-label-tittle{
+    font-size: 6em;
+    color: #fee7c5;
+}
+
+.right-container{
+    display: flex;
+    overflow: hidden;
+    width: 100vh;
+}
+
+.form-control{
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #fee7c5;
+    border: none;
+}

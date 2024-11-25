@@ -1,0 +1,45 @@
+.banner {
+    display: flex;
+    background-color: #E8E1FF;
+    width: 100%;
+    height: 90vh;
+}
+
+.left__container--banner {
+    display: flex;
+    flex-direction: column;
+    background-color: #6A87D7;
+    margin-top: 2em;
+    border-radius: 0% 10% 0% 0%;
+    padding: 3em;
+    justify-content: center;
+    width: 100vh;
+}
+
+.tittle--left {
+    font-size: 8em;
+    color: #E8E1FF;
+    transition: 2s;
+}
+
+.subtitle--left {
+    font-size: 5em;
+}
+
+.description--left {
+    color: #E8E1FF;
+}
+
+.right__container--banner{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100vh;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.ilustration--right {
+    width: 60%;
+}
